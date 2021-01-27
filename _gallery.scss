@@ -1,7 +1,8 @@
 .gallery-section {
-  padding: 100px 10%;
+  padding: 120px 5% 100px 5%;
   h1 {
     text-align: center;
+    margin: 0px;
   }
 
   .item-containers {
@@ -33,6 +34,21 @@
         font-weight: 700;
         margin-top: 50px;
       }
+    }
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    padding: 20px 50px;
+    margin-top: 100px;
+    border: none;
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: 100;
+      text-transform: uppercase;
     }
   }
 }
