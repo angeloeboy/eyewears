@@ -1,0 +1,57 @@
+footer {
+  background-color: #fdbe51;
+  padding: 100px 10%;
+  display: flex;
+  align-items: flex-start;
+
+  img {
+    width: 60%;
+  }
+  .form-container {
+    width: 40%;
+    margin-left: 80px;
+
+    label {
+      text-transform: uppercase;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      background-color: transparent;
+      border: 2px solid black;
+
+      &:nth-child(6) {
+        height: 150px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  footer {
+    flex-flow: column-reverse;
+    img {
+      width: 100%;
+      margin-top: 50px;
+    }
+    .form-container {
+      width: 100%;
+      margin: 0px;
+    }
+  }
+}
+
+.copyright {
+  background-color: black;
+  text-align: center;
+  color: white;
+
+  p {
+    margin: 0px;
+    font-weight: 100;
+    padding: 30px;
+  }
+}
