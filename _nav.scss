@@ -78,13 +78,15 @@ nav {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   nav {
     .links {
+      width: 80%;
+
       ul {
         li {
-          font-size: 2rem;
           margin-left: 0px;
+          // font-size: 2rem;
         }
       }
     }

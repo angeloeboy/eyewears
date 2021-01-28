@@ -15,6 +15,8 @@
     .item {
       margin: 0px 30px;
       text-align: center;
+      opacity: 0;
+      transition: all 0.1s;
       p {
         text-transform: uppercase;
         font-size: 1.4rem;
@@ -53,7 +55,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .gallery-section {
     padding: 0px 10%;
 
@@ -61,6 +63,12 @@
       .item:not(:nth-child(1)) {
         margin-top: 50px;
       }
+    }
+
+    button {
+      width: 100%;
+      margin-top: 0px;
+      margin-bottom: 70px;
     }
   }
 }
